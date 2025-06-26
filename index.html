@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article Preview Component</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <article class="article">
+    <section class="article-img">
+      <img class="drawers-img" src="images/drawers.jpg" alt="">
+    </section>
+
+    <div class="wrapper">
+      <section class="article-info">
+        <h1 class="article-heading">
+          Shift the overall look and feel by adding these wonderful touches to furniture in your home
+        </h1>
+
+        <p class="artcile-text">
+          Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I've got some simple tips to help you make any room feel complete.
+        </p>
+      </section>
+
+      <footer class="footer">
+        <div class="article-footer-info">
+          <div class="article-author-profile-container">
+            <div class="article-author-avatar">
+              <img src="images/avatar-michelle.jpg" alt="" class="author-avatar">
+            </div>
+
+            <div class="author-info">
+              <p class="author-name">
+              Michelle Appleton
+              </p>
+
+              <time datetime="2020-06-28"class="article-date"> 28 Jun 2020
+              </time>
+            </div>
+          </div>
+
+          <button arial-label="Share article" class="button-wrapper show-social-icons">
+            <svg class="share-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="13" viewBox="0 0 15 13" aria-hidden="true">
+              <path d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/>
+            </svg>
+          </button>
+        </div>
+
+
+        <div class="share-article-wrapper hidden">
+          <div class="socials-icon-container">
+            <span class="share-text">SHARE</span>
+
+
+            <a href="#">
+              <img src="images/icon-facebook.svg" alt="">
+            </a>
+
+            <a href="#">
+              <img src="images/icon-twitter.svg" alt="">
+            </a>
+
+            <a href="#">
+              <img src="images/icon-pinterest.svg" alt="">
+            </a>
+          </div>
+        
+
+          <button arial-label="Share article" class="button-wrapper show-social-icons hide-ash-footer-share-icon">
+            <svg class="share-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="13" viewBox="0 0 15 13" aria-hidden="true">
+              <path d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/>
+            </svg>
+          </button>
+        </div>
+      </footer>
+    </div>
+  </article>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
